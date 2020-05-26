@@ -5,19 +5,19 @@ class Calculator {
 
   add(value){
     this.value += value;
-    return value;
+    return this.value;
   }
   subtract(value){
     this.value -= value;
-    return value;
+    return this.value;
   }
   multiply(value){
     this.value *= value;
-    return value;
+    return this.value;
   }
   devide(value){
     this.value /= value;
-    return value;
+    return this.value;
   }
 }
 
